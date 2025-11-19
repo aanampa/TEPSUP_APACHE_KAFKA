@@ -46,7 +46,13 @@ curl -X POST http://localhost:8081/api/estudiantes \
 curl http://localhost:8081/api/logs
 ```
 ## Kafka UI
+### Abrir la siguente ruta en el navgador
+<a href="http://localhost:8090" target="_blank">http://localhost:8090</a>
+
 ```
-# Abrir la siguente ruta en el navgador
-http://localhost:8090/
+- Ir a Topics
+- Ir a mensajes-topic
+- Ir a Messages
 ```
+
+
