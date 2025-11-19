@@ -1,4 +1,4 @@
-# TEPSUP_APACHE_KAFKA
+# TEPSUP APACHE KAFKA
 Demostración de uso de Apache Kafka
 
 ## Instalación
@@ -23,16 +23,6 @@ mvn clean install
 mvn spring-boot:run
 
 ```
-## Estructura del proyecto
-
-
-```
-proyecto/
-├── src/
-├── tests/
-├── docs/
-└── README.md
-```
 ## Ejemplo de Uso
 ```
 # Listar estudiantes
@@ -54,4 +44,9 @@ curl -X POST http://localhost:8081/api/estudiantes \
 
 # Listar mensajes
 curl http://localhost:8081/api/logs
-  ```
+```
+## Kafka UI
+```
+# Abrir la siguente ruta en el navgador
+http://localhost:8090/
+```
